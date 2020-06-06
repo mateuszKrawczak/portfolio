@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&display=swap');
+
+$backgroundColor: #F1E7DE;
+$footerColor: #E0D6CD;
+$navbarColor: #E0D6CD;
+html, body {
+    //font-family: 'Lato', sans-serif; //
+    font-family: 'Comfortaa', sans-serif;
+    height: 100%;
+    min-height: 100vh;
+    margin: 0; 
+    background-color: $backgroundColor;
+}
+* { 
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
