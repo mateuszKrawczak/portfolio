@@ -15,12 +15,15 @@ section{
 }
 h1{
     font-size: 5rem;
-    text-shadow: 3px 3px black;
+    //text-shadow: 3px 3px black;
+    text-shadow: 0 0 1rem $blue;
     text-align:center;
     color: white;
+    //color:$blue;
     width:100%;
     animation-name: showTitle;
     animation-duration:5s;
+    letter-spacing: 2px;
 }
 @keyframes showTitle {
     from {opacity: 0;}

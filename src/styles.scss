@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lato&display=swap');
 
-$backgroundColor: #F1E7DE;
+//$backgroundColor: #F1E7DE;
+$backgroundColor: #222831;
+$black:#222831;
+$grey:#393e46;
+$blue:#00adb5;
+$white:#eeeeee;
+//$backgroundColor: #EBEBEB;
 $footerColor: #E0D6CD;
 $navbarColor: #E0D6CD;
 html, body {
@@ -10,6 +16,7 @@ html, body {
     min-height: 100vh;
     margin: 0; 
     background-color: $backgroundColor;
+    color:$white;
 }
 * { 
     box-sizing: border-box; 

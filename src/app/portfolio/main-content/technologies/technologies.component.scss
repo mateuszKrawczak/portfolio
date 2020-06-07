@@ -1,0 +1,25 @@
+@import  '../../../../styles.scss';
+
+
+h1{
+    text-align:right;
+}
+article{
+    left:0% !important;
+    margin: 0 !important;
+}
+
+@media (max-width: 950px) {
+    article{
+        left:0% !important;
+     }
+  }
+ @media (max-width: 550px) {
+    h1 {
+        text-align:center;
+    }
+    article{
+       right:0%;
+       margin:auto !important;;
+    }
+ }
