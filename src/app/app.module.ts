@@ -12,7 +12,7 @@ import { TechnologiesComponent } from './portfolio/main-content/technologies/tec
 import { ContactComponent } from './portfolio/main-content/contact/contact.component';
 import { ProjectsComponent } from './portfolio/main-content/projects/projects.component';
 import { WelcomeComponent } from './portfolio/main-content/welcome/welcome.component';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +28,8 @@ import { WelcomeComponent } from './portfolio/main-content/welcome/welcome.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

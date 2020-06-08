@@ -1,25 +1,54 @@
-@import  '../../../../styles.scss';
+@import "../../../../styles.scss";
 
-
-h1{
-    text-align:right;
+h1 {
+  text-align: right;
 }
-article{
-    left:0% !important;
-    margin: 0 !important;
+article {
+  left: 0% !important;
+  margin: 0 !important;
 }
 
 @media (max-width: 950px) {
-    article{
-        left:0% !important;
-     }
+  article {
+    left: 0% !important;
   }
- @media (max-width: 550px) {
-    h1 {
-        text-align:center;
-    }
-    article{
-       right:0%;
-       margin:auto !important;;
-    }
- }
+}
+@media (max-width: 550px) {
+  h1 {
+    text-align: center;
+  }
+  article {
+    right: 0%;
+    margin: auto !important;
+  }
+}
+a {
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  // margin-bottom:20px;
+  max-width: 300px;
+  width: 100%;
+  font-size: 18px;
+  color: $blue !important;
+  transition: 0.2s;
+  background-color: $backgroundColor !important;
+  box-shadow: 0 0 0.5rem $blue;
+}
+a:hover {
+  color:$grey!important;
+  text-decoration: none !important;
+  background:$blue!important;
+  transition:1s!important;
+  box-shadow: 0 0 10px $blue,0 0 40px $blue,0 0 80px $blue;
+  //box-shadow: 0 0 80px $blue;
+}
+fa-icon {
+  padding-left: 5px;
+}
+.technologies {
+  border: 1px solid red;
+}
