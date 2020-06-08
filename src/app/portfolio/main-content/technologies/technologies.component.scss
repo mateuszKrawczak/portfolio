@@ -28,8 +28,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
-  // margin-bottom:20px;
   max-width: 300px;
   width: 100%;
   font-size: 18px;
@@ -39,16 +37,55 @@ a {
   box-shadow: 0 0 0.5rem $blue;
 }
 a:hover {
-  color:$grey!important;
+  color: $grey !important;
   text-decoration: none !important;
-  background:$blue!important;
-  transition:1s!important;
-  box-shadow: 0 0 10px $blue,0 0 40px $blue,0 0 80px $blue;
-  //box-shadow: 0 0 80px $blue;
+  background: $blue !important;
+  transition: 1s !important;
+  box-shadow: 0 0 10px $blue, 0 0 40px $blue, 0 0 80px $blue;
 }
-fa-icon {
-  padding-left: 5px;
+a fa-icon {
+  padding-left: 10px;
 }
 .technologies {
-  border: 1px solid red;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 100px;
+  margin: auto;
+}
+li {
+  list-style: none;
+}
+li fa-icon {
+  color: $white;
+  padding: 0 35px;
+}
+li fa-icon:hover {
+  cursor: pointer;
+}
+#gitIcon {
+  margin-right: 0px;
+}
+#angularIcon:hover {
+  color: #da0b37;
+}
+#htmlIcon:hover {
+  color: #e54d26;
+}
+#cssIcon:hover {
+  color: #28a9e0;
+}
+#javaScriptIcon:hover {
+  color: #f7df1d;
+}
+#nodeIcon:hover {
+  color: #70a763;
+}
+#javaIcon:hover {
+  color: #ca3838;
+}
+#gitIcon:hover {
+  color: #f35434;
+}
+#npmIcon:hover {
+  color: #d30404;
 }

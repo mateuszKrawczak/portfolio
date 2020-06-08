@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faUserGraduate} from "@fortawesome/free-solid-svg-icons";
-import { faAngular,faHtml5,faCss3Alt,faJsSquare, faJava, faNode, faNpm, faGitAlt,faSass} from "@fortawesome/free-brands-svg-icons";
+import { faAngular,faHtml5,faCss3Alt,faJsSquare, faJava, faNode, faNpm, faGitAlt} from "@fortawesome/free-brands-svg-icons";
 @Component({
   selector: 'app-technologies',
   templateUrl: './technologies.component.html',
@@ -18,7 +18,6 @@ export class TechnologiesComponent implements OnInit {
   nodeIcon = faNode;
   npmIcon = faNpm;
   gitIcon = faGitAlt;
-  sassIcon = faSass;
   
   constructor() { }
 
