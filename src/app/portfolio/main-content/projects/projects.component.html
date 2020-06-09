@@ -6,6 +6,12 @@
           I'm third year student of Computer Science at Wrocław University of
           Science and Technology.
         </p>
+        <ng-container >
+          <li class="projects-container">
+        <div class="project" *ngFor="let project of projects" style="background-image: url(../../../../assets/{{project.photos[0]}});background-position: center;
+        background-size: cover;"><div class="show-details-hover"><span class="title">{{project.name}}</span></div></div>
+          </li>
+      </ng-container>
       </article>
     </div>
   </section>

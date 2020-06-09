@@ -24,11 +24,12 @@ article {
   background-color: $grey;
   //box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
   box-shadow: 0 0 1rem $blue;
+  border-radius:1em;
   padding: 30px;
-  position: relative;
+  //position: relative;
   //display: flex;
-  left: 20%;
-  transform: translateY(-50%);
+  margin-left: 20%;
+  //transform: translateY(-50%);
   letter-spacing: 2px;
   z-index: 1;
   color: white;
@@ -46,8 +47,8 @@ p {
   }
   article {
     margin: auto;
-    left: 10%;
-    transform: translateY(-30%);
+    margin-left: 10%;
+    //transform: translateY(-30%);
     padding: 20px;
   }
   section {
@@ -60,8 +61,8 @@ p {
     font-size: 100px;
   }
   article {
-    left: 0%;
-    transform: translateY(-20%);
+   // margin-left:0px;
+    //transform: translateY(-20%);
     padding: 20px;
   }
   section {

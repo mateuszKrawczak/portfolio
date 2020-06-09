@@ -1,6 +1,39 @@
+@import "../../../../styles.scss";
 @media (max-width: 550px) {
     h1 {
         font-size: 95px !important;
     }
    
   }
+
+
+  .project{
+      max-width:400px;
+      max-height:300px;
+      height:100%;
+      min-height:280px;
+      border:1px solid white;
+      color:red;
+      padding:10px;
+      width:100%;
+      min-width:280px;
+      display: inline-block;
+      margin:20px 10px;
+      
+  }
+  .project:hover{
+    .show-details-hover{
+        visibility: visible;
+      }
+  }
+  .projects-container{
+    display:flex;
+    justify-content:space-around;
+   // height:100%;
+   flex-wrap: wrap;
+    height:100%;
+  }
+  .show-details-hover{
+    visibility: hidden;
+  }
+  
