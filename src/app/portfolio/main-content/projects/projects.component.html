@@ -3,14 +3,14 @@
       <h1>Projects</h1>
       <article>
         <p>
-          I'm third year student of Computer Science at Wrocław University of
-          Science and Technology.
+          Here are a few project made by me. A lot of more you can find on my <a href="https://github.com/mateuszKrawczak">github</a> account.
         </p>
         <ng-container >
           <li class="projects-container">
         <div class="project" *ngFor="let project of projects" style="background-image: url(../../../../assets/{{project.photos[0]}});background-position: center;
-        background-size: cover;"><div class="show-details-hover"><span class="title">{{project.name}}</span></div></div>
-          </li>
+        background-size: cover;"><div class="show-details-hover"><span class="title">{{project.name}}</span><span class="desc">{{project.description}}</span><span class="buttons-container"><a class="action-button" href="{{project.link}}"> <fa-icon id="linkIcon" [icon]="linkIcon"></fa-icon></a><a class="action-button"><fa-icon id="imagesIcon" [icon]="imagesIcon"></fa-icon></a></span></div></div>
+         
+        </li>
       </ng-container>
       </article>
     </div>

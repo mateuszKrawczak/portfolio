@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import{ Project} from '../../../models/project';
-
+import { faLink} from "@fortawesome/free-solid-svg-icons";
+import { faImages} from "@fortawesome/free-regular-svg-icons";
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
@@ -13,12 +14,15 @@ export class ProjectsComponent implements OnInit {
   numbers:number[]=new Array<number>(3);
   projectExample={} as Project;
 
+  linkIcon = faLink;
+  imagesIcon = faImages;
+
   constructor() { }
 
   ngOnInit(): void {
     
-    this.projectExample.name = "Restaurant service app";
-    this.projectExample.description ="App designed for restaurant service. It helps with organisation in restaurant for employees and also manager. Manager can for example check statistics of salary in his restaurant. Waiter can book tables and create orders.";
+    this.projectExample.name = "Restaurant service";
+    this.projectExample.description ="App designed for restaurant service. It helps with organisation in restaurant for employees and also manager. ";
     this.projectExample.photos=["neon.png",""];
     this.projectExample.link="https://github.com/mateuszKrawczak/kpz-restaurant-frontend";
     this.projects[0]=this.projectExample;

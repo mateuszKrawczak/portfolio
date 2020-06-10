@@ -21,6 +21,9 @@ article {
     right: 0%;
     margin: auto !important;
   }
+  li fa-icon {
+    margin:0 50px!important;
+  }
 }
 a {
   margin: auto;
@@ -57,13 +60,14 @@ li {
 }
 li fa-icon {
   color: $white;
-  padding: 0 35px;
+  //padding: 0 35px;
+  margin:0px 35px;
 }
 li fa-icon:hover {
   cursor: pointer;
 }
 #gitIcon {
-  margin-right: 0px;
+  //margin-right: 0px;
 }
 #angularIcon:hover {
   color: #da0b37;
