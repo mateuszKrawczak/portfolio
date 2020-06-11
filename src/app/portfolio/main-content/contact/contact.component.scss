@@ -1,26 +1,104 @@
-@import  '../../../../styles.scss';
+@import "../../../../styles.scss";
 
-
-h1{
-    text-align:right;
+section {
+  margin-bottom: 100px;
 }
-article{
-    left:0% !important;
-    margin: 0 !important;
+h1 {
+  text-align: right;
+}
+article {
+  left: 0% !important;
+  margin: 0 !important;
+}
+p{
+    text-align:center;
+}
+.icons-container{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    font-size: 40px;
+    margin: auto;
+    text-align:center;
+}
+.email-container{
+    width:100%;
+    text-align:center;
+    font-size: 1.2rem;
+    padding:30px 0;
+    color:$blue;
+    margin:auto;
+}
+a{
+    width:60px;
+    height:60px;
+    border-radius:50rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:$black !important;
+    background-color: $white!important;
+    box-shadow:0 5px 4px black;
+    overflow: hidden;
+}
+fa-icon{
+    max-height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+a:hover{
+    cursor: pointer;
+    transition: 0.6s !important;
+    color:$white!important;
+    transform: translateY(-10px);
 }
 
-@media (max-width: 950px) {
-    article{
-        left:0% !important;
-     }
+@media (max-width: 550px) {
+  h1 {
+    text-align: center;
+    font-size: 90px !important;
   }
- @media (max-width: 550px) {
-    h1 {
-       
-        font-size:95px!important;;
-    }
-    article{
-       right:0%;
-       margin:auto !important;;
-    }
- }
+  article {
+    right: 0%;
+    margin: auto !important;
+  }
+  .inline-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .icons-container{
+    font-size: 40px; 
+  }
+  a{
+    width:60px;
+    height:60px;
+  }
+  .email-container{
+    font-size: 1.1rem; 
+  }
+}
+@media (max-width: 450px) {
+  h1 {
+    font-size: 75px !important;
+  }
+  .email-container{
+    font-size: 0.9rem; 
+  }
+}
+#iconFacebook:hover{
+    background-color: #3b5999 !important;
+}
+#iconInstagram:hover{
+    background-color: #e4405f !important;
+}
+#iconLinkedin:hover{
+    background-color: #0e76a8 !important;
+}
+#iconGithub:hover{
+    background-color: #211F1F !important;
+}

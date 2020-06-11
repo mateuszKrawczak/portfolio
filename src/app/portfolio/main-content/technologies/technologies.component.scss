@@ -20,11 +20,19 @@ article {
   article {
     right: 0%;
     margin: auto !important;
+    max-width: 100%;
+    margin-bottom: 100px;
   }
   li fa-icon {
-    margin:0 50px!important;
+    margin: 0 !important;
+  }
+  .inline-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 }
+
 a {
   margin: auto;
   padding: 5px;
@@ -54,20 +62,22 @@ a fa-icon {
   padding: 40px 0;
   font-size: 100px;
   margin: auto;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-wrap: wrap;
+  width: 100%;
 }
 li {
   list-style: none;
 }
 li fa-icon {
   color: $white;
-  //padding: 0 35px;
-  margin:0px 35px;
+  margin: 0px 35px;
 }
 li fa-icon:hover {
   cursor: pointer;
-}
-#gitIcon {
-  //margin-right: 0px;
+  transition: 0.5s !important;
 }
 #angularIcon:hover {
   color: #da0b37;

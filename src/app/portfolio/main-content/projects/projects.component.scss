@@ -4,7 +4,11 @@
     font-size: 95px !important;
   }
 }
-
+@media (max-width: 450px) {
+  h1 {
+    font-size: 75px !important;
+  }
+}
 p {
   text-align: center;
 }
@@ -13,7 +17,6 @@ p a {
 }
 p a:hover {
   text-decoration: none;
-  
 }
 .project {
   max-width: 400px;
@@ -32,9 +35,12 @@ p a:hover {
 }
 
 .project:hover {
+  transition: 0.5s !important;
+  transform: scale(1.02);
   .show-details-hover {
     visibility: visible;
     background-color: rgba(34, 40, 49, 0.8);
+    transition: 0.4s !important;
   }
 }
 .projects-container {
@@ -62,8 +68,8 @@ span {
 }
 .title {
   text-align: center;
-  //margin: auto;
-  font-size:25px;
+  font-size: 25px;
+  color: $blue;
 }
 .description {
   text-align: justify;
@@ -78,13 +84,12 @@ span {
   font-size: 20px;
   padding: 10px;
   opacity: 0.8;
-  color:$white;
+  color: $white;
 }
 .action-button:hover {
   transform: scale(1.1);
   cursor: pointer;
   transition: 0.4s;
-  color:$white;
+  color: $white;
   // border:1px solid $blue;
 }
-
