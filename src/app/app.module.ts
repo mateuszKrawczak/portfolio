@@ -13,6 +13,8 @@ import { ContactComponent } from './portfolio/main-content/contact/contact.compo
 import { ProjectsComponent } from './portfolio/main-content/projects/projects.component';
 import { WelcomeComponent } from './portfolio/main-content/welcome/welcome.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import 'hammerjs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgxGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
