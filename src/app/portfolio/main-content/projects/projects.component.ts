@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Project } from '../../../models/project';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { faLink,faPlay } from '@fortawesome/free-solid-svg-icons';
 import { faImages } from '@fortawesome/free-regular-svg-icons';
 
 import { NgxGalleryOptions, NgxGalleryComponent } from '@kolkov/ngx-gallery';
@@ -25,7 +25,7 @@ export class ProjectsComponent implements OnInit {
 
   linkIcon = faLink;
   imagesIcon = faImages;
-
+  playIcon = faPlay;
   constructor() {}
 
   ngOnInit(): void {

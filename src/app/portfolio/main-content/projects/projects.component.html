@@ -8,7 +8,7 @@
         <ng-container >
           <li class="projects-container">
         <div class="project"  *ngFor="let project of projects;index as i" style="background-image: url(../../../../assets/{{project.photos[0]}});background-position: center;
-        background-size: cover;"><div class="show-details-hover" ><span class="title">{{project.name}}</span><span class="desc">{{project.description}}</span><span class="buttons-container"><a class="action-button" href="{{project.link}}"> <fa-icon id="linkIcon" [icon]="linkIcon"></fa-icon></a><a (click)="showGallery(i)" class="action-button"><fa-icon id="imagesIcon" [icon]="imagesIcon"></fa-icon></a></span></div></div>
+        background-size: cover;"><div class="show-details-hover" ><span class="title">{{project.name}}</span><span class="desc">{{project.description}}</span><span class="buttons-container"><a class="action-button" href="{{project.link}}"> <fa-icon id="linkIcon" [icon]="linkIcon"></fa-icon></a><a (click)="showGallery(i)" class="action-button"><fa-icon id="imagesIcon" [icon]="imagesIcon"></fa-icon></a><a href='https://easy-quizy.herokuapp.com' *ngIf="i==1" class="action-button"><fa-icon id="playIcon" [icon]="playIcon"></fa-icon></a></span></div></div>
          
         </li>
       </ng-container>
