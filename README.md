@@ -1,6 +1,6 @@
 # MateuszKrawczakPortfolio
 
-This is my first portfolio. In future I want to upgrade it in future. https://mateuszkrawczak.github.io/portfolio
+This is my first portfolio. I will upgrade it in the future. https://mateuszkrawczak.github.io/portfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
