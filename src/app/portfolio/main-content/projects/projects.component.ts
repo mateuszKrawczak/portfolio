@@ -91,31 +91,31 @@ export class ProjectsComponent implements OnInit {
     if (index != 0) {
       this.galleryImages = [
         {
-          big: '../../../../assets/' + this.projects[index].photos[0],
+          big: 'assets/' + this.projects[index].photos[0],
         },
         {
-          big: '../../../../assets/' + this.projects[index].photos[1],
+          big: 'assets/' + this.projects[index].photos[1],
         },
         {
-          big: '../../../../assets/' + this.projects[index].photos[2],
+          big: 'assets/' + this.projects[index].photos[2],
         },
       ];
     } else {
       this.galleryImages = [
         {
-          big: '../../../../assets/' + this.projects[index].photos[0],
+          big: 'assets/' + this.projects[index].photos[0],
         },
         {
-          big: '../../../../assets/' + this.projects[index].photos[1],
+          big: 'assets/' + this.projects[index].photos[1],
         },
         {
-          big: '../../../../assets/' + this.projects[index].photos[2],
+          big: 'assets/' + this.projects[index].photos[2],
         },
         {
-          big: '../../../../assets/' + this.projects[index].photos[3],
+          big: 'assets/' + this.projects[index].photos[3],
         },
         {
-          big: '../../../../assets/' + this.projects[index].photos[4],
+          big: 'assets/' + this.projects[index].photos[4],
         },
       ];
     }
